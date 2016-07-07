@@ -1,9 +1,10 @@
 /*
- * 文件名：led.S
- * 作  者：Rston
- * 描  述：实现4个LED流水灯 	
+ * 公司：XXXX
+ * 作者：Rston
+ * 项目：编写LED程序及反汇编工具
+ * 功能：汇编实现同时点亮4个LED灯。
  */
-
+ 
 #define GPJ2CON 0xE0200280
 #define GPJ2DAT 0xE0200284
  

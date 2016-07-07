@@ -1,7 +1,8 @@
 /*
- * 文件名：led.S
- * 作  者：Rston
- * 描  述：实现4个LED灯的闪烁 	
+ * 公司：XXXX
+ * 作者：Rston
+ * 项目：编写LED程序及反汇编工具
+ * 功能：汇编实现4个LED灯的闪烁。
  */
 
 #define GPJ2CON 0xE0200280
