@@ -4,7 +4,7 @@
  * 博客：http://blog.csdn.net/rston
  * GitHub：https://github.com/rston
  * 项目：编写LED程序及反汇编工具
- * 功能：汇编实现同时点亮4个LED灯。
+ * 功能：汇编实现4个LED流水灯。
  */
  
 #define GPJ2CON 0xE0200280
