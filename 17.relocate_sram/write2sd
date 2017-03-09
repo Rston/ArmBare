@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo dd iflag=dsync oflag=dsync if=relocate_sram_sd.bin of=/dev/sdb seek=1
