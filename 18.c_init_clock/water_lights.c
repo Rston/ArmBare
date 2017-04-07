@@ -3,7 +3,7 @@
  * 作者：Rston
  * 博客：http://blog.csdn.net/rston
  * GitHub：https://github.com/rston
- * 项目：初始化SDRAM和代码重定位
+ * 项目：SoC时钟系统概述及初始化
  * 功能：C语言实现4个LED流水灯效果。	
  */
 #include "water_lights.h"
@@ -22,14 +22,14 @@ void water_lights(void)
 	// 实现LED流水灯功能
 	while (1)
 	{
-		//rGPJ2DAT = ~(1<<0);
-		//delay();
+		rGPJ2DAT = ~(1<<0);
+		delay();
 		
 		rGPJ2DAT = ~(1<<1);
 		delay();
 		
-		rGPJ2DAT = ~(1<<2);
-		delay();
+		//rGPJ2DAT = ~(1<<2);
+		//delay();
 		
 		//rGPJ2DAT = ~(1<<3);
 		//delay();

@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo dd iflag=dsync oflag=dsync if=asm_init_clock_sd.bin of=/dev/sdb seek=1

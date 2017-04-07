@@ -22,8 +22,8 @@ void water_lights(void)
 	// 实现LED流水灯功能
 	while (1)
 	{
-		//rGPJ2DAT = ~(1<<0);
-		//delay();
+		rGPJ2DAT = ~(1<<0);
+		delay();
 		
 		rGPJ2DAT = ~(1<<1);
 		delay();

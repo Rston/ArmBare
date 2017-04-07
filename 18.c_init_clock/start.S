@@ -3,8 +3,8 @@
  * 作者：Rston
  * 博客：http://blog.csdn.net/rston
  * GitHub：https://github.com/rston
- * 项目：初始化SDRAM和代码重定位
- * 功能：通过汇编初始化SDRAM。
+ * 项目：SoC时钟系统概述及初始化
+ * 功能：通过C设置系统典型时钟。
  */
 
 #define WTCON		0xE2700000
@@ -16,6 +16,9 @@ _start:
 	ldr r0, =WTCON
 	ldr r1, =0x0
 	str r1, [r0]
+	
+	// 设置系统典型时钟
+	bl clock_init
 	
 	// 设置SVC_STACK栈
 	ldr sp, =SVC_STACK
