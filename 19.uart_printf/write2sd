@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo dd iflag=dsync oflag=dsync if=uart_printf.bin of=/dev/sdb seek=1
